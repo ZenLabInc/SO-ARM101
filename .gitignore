@@ -1,0 +1,23 @@
+# Minicondaインストーラー
+*.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+.local/
+*.local.*
+robot_MCP/main_follower.json
+robot_MCP/config.py.original
+config_template.py
+fix_follower_pos.py
+setup_robot_mcp.sh
+
+# macOS
+.DS_Store
+
+# エディタ
+.vscode/
+.idea/

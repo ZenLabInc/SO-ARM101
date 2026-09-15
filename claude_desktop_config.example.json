@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "so-arm101": {
+      "command": "/absolute/path/to/SO-ARM101/.venv/bin/python",
+      "args": [
+        "/absolute/path/to/SO-ARM101/robot_MCP/mcp_robot_server.py"
+      ],
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}
